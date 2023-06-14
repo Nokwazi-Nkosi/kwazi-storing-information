@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Table</title>
+</head>
+<style>
+thead{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+border: 2px solid gray;
+width: 100%;
+height: 300px;
+}
+tr{
+background-color: rgb(14, 165, 240);
+
+}
+
+
+</style>
+<body>
+  <table id="userTable">
+    <thead>
+      <tr>
+      
+        <th>Email</th>
+        <th>Password</th>
+    
+      </tr>
+    </thead>
+  
+
+<button onclick="populateTableFromLocalStorage()">Users</button>
+
+  </table>
+
+  <script src="./login.js"></script>
+</body>
+</html>
